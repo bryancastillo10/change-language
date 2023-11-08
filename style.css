@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: #ffe4cf;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #dcdcdc;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    padding: 80px;
+
+}
+.languageSection{
+    background-color: darkcyan;
+    padding: 10px 100px;
+
+}
+.languageSection a{
+    color: limegreen;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px; 
+    background-color: gainsboro;
+    border-radius: 100px;
+}
+
+.languageSection .active{
+    background:black;
+}
+
+.content{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.content p{
+    margin-top: 20px;
+}
