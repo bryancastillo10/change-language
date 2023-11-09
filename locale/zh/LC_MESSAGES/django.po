@@ -28,7 +28,7 @@ msgstr ""
 
 #: .\core\settings.py:135
 msgid "Spanish"
-msgstr "西班牙"
+msgstr ""
 
 #: .\lang\views.py:6
 msgid "Hello"
