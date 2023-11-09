@@ -3,4 +3,5 @@ from django.utils.translation import gettext as _
 
 
 def home(request):
-    trans = _("hello", {"trans": trans})
+    trans = _("Hello")
+    return render(request, "home.html", {"trans": trans})
