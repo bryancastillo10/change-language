@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "lang",
 ]
 
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -128,4 +129,8 @@ from django.utils.translation import gettext_lazy as _
 
 LANGUAGE_CODE = "en"
 
-LANGUAGES = (("en", _("English")), ("zh_tw", _("Chinese")), ("es", _("Spanish")))
+LANGUAGES = (
+    ("en", _("English")),
+    ("zh", _("Chinese Traditional")),
+    ("es", _("Spanish")),
+)
