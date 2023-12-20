@@ -138,9 +138,7 @@ const getWinnings = (rows, bet, lines) => {
     return winnings;
 };
 
-// 6. Play Again?
-
-
+// 6. Play the Game?
 
 const game = () => {
     let balance = deposit();
