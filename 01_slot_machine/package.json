@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bryancastillo10/javascript-fundamentals/issues"
   },
-  "homepage": "https://github.com/bryancastillo10/javascript-fundamentals#readme"
+  "homepage": "https://github.com/bryancastillo10/javascript-fundamentals#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
