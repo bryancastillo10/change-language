@@ -1,0 +1,26 @@
+/* Comment in Style Sheet */
+*{
+    background-color: #545454;
+    color: #fff;
+}
+
+#change {
+    color:dodgerblue;
+}
+
+#firstbtn:hover {
+    background-color: yellow;
+    color:#000;
+}
+
+#myButton, #hypoCalc {
+    border: 2px solid #009E73;
+    border-radius: 10px;
+    background-color:#009E73;
+    color:#fff;
+}
+#myButton:hover, #hypoCalc:hover{
+    background-color: #000;
+    color:#fff;
+}
+
