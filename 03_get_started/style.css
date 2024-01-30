@@ -9,18 +9,44 @@
 }
 
 #firstbtn:hover {
-    background-color: yellow;
+    background-color: #FEFE62;
     color:#000;
 }
 
-#myButton, #hypoCalc {
+#firstbtn, #myButton, #hypoCalc, #nextBtn {
     border: 2px solid #009E73;
     border-radius: 10px;
     background-color:#009E73;
     color:#fff;
+    transition: background-color 0.25s;
 }
 #myButton:hover, #hypoCalc:hover{
     background-color: #000;
     color:#fff;
 }
 
+#countLabel {
+    display:block;
+    text-align:center;
+    font-size:8em;
+    font-family:Helvetica;
+}
+
+#btnContainer {
+    text-align:center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5 em;
+    color: #fff;
+    background-color:#009E73;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover, #nextBtn:hover{
+    background-color: #332288;
+    color:#fff;
+}
