@@ -1,15 +1,18 @@
-//Try first
+//// JavaScript Tutorial Series from Noob to Pro!
 
+// Changing text
 function changeText() {
   var firstButton = document.getElementById("change");
 
   firstButton.innerHTML = "Let's get started! This text has changed. ";
 }
 
+// Pop-up Window
 function showAlert() {
   window.alert("You are learning Javascript!");
 }
 
+/// Setting up Variables using let, var, or const
 function variableTest() {
   let name = "Bro";
   let age = 28;
@@ -20,12 +23,14 @@ function variableTest() {
   document.getElementById("p3").innerHTML = "Enrolled: " + student;
 }
 
+// Input and Output Text in JavaScript
 function submitBtn() {
   var textInput = document.getElementById("myText").value;
 
   document.getElementById("reply").innerHTML = "You have typed: " + textInput;
 }
 
+/// Calculating the circumference of a circle
 function circumCalc() {
   const PI = 3.14159;
   let circum;
@@ -38,6 +43,7 @@ function circumCalc() {
     "The circumference is " + circum;
 }
 
+// Calculating the hypotenuse of a right triangle
 document.getElementById("hypoCalc").onclick = function () {
   var a = document.getElementById("A_text").value;
   a = Number(a);
