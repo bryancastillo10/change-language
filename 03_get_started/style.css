@@ -13,7 +13,7 @@
     color:#000;
 }
 
-#firstbtn, #myButton, #hypoCalc, #nextBtn {
+#firstbtn, #myButton, #hypoCalc, #switchBtn, #nextBtn {
     border: 2px solid #009E73;
     border-radius: 10px;
     background-color:#009E73;
@@ -46,7 +46,7 @@
     transition: background-color 0.25s;
 }
 
-.buttons:hover, #nextBtn:hover, #dice_roll:hover, #mySubmit:hover{
+.buttons:hover, #switchBtn:hover, #dice_roll:hover, #mySubmit:hover, #nextBtn:hover{
     background-color: #332288;
     color:#fff;
 }

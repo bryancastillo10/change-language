@@ -40,3 +40,14 @@ mySubmit.onclick = function () {
       "No payment selected. Please select a payment type.";
   }
 };
+
+/// Variable Scope:
+
+functiion function1 (){
+    let x = 1;
+    console.log(x);
+}
+
+function redirectToIndex() {
+    window.location.href = "index.html";
+  }
