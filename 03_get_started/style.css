@@ -46,7 +46,17 @@
     transition: background-color 0.25s;
 }
 
-.buttons:hover, #nextBtn:hover{
+.buttons:hover, #nextBtn:hover, #dice_roll:hover, #mySubmit:hover{
     background-color: #332288;
     color:#fff;
 }
+
+#dice_roll, #mySubmit {
+    font-family: Verdana;
+    text-align: center;
+    background-color:#009E73;
+    font-size: 1em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
