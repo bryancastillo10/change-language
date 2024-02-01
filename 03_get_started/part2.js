@@ -93,22 +93,21 @@ function generatePassword(
   return password;
 }
 
-const passwordLength = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
-
-const password = generatePassword(
-  passwordLength,
-  includeLowercase,
-  includeUppercase,
-  includeNumbers,
-  includeSymbols
-);
-
-// console.log(`Generated password: ${password}`);
 document.getElementById("myButton").onclick = function () {
+  const passwordLength = 12;
+  const includeLowercase = true;
+  const includeUppercase = true;
+  const includeNumbers = true;
+  const includeSymbols = true;
+
+  const password = generatePassword(
+    passwordLength,
+    includeLowercase,
+    includeUppercase,
+    includeNumbers,
+    includeSymbols
+  );
+
   document.getElementById("generated").textContent = password;
 };
 
