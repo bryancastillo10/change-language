@@ -1,12 +1,12 @@
-.container1{
+.container{
     justify-content: center;
     background-color: gainsboro;
     width:100%;
-    height:250px;
+    height:200px;
     position: relative;
 }
 
-.container1 h3{
+.container h3{
     text-align: center;
 }
 
@@ -22,6 +22,19 @@
     margin:5px;
 }  
 
+.wrapper #checkbtn{
+    height:20px;
+    background-color: rgb(64, 184, 124);
+    color:#000;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.wrapper #checkbtn:hover{
+    background-color: dodgerblue;
+    color:#fff;
+    cursor: pointer;
+}
 /* Green Button */
 #green {
     background-color: #008080;
